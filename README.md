@@ -4,10 +4,10 @@
 
 #Example e2e tests (some of which are slightly silly) written in Testcafe, that:
 
-    use a page object pattern (now with 100% less class)
+    used a page object pattern (now with 100% less class)
     are written in Javascript es6
-    use async/await
-    run on multiple browsers
+    used async/await
+    run on multiple browsers will be possible
 Setup
 
     clone clone https://github.com/PramodKokadwar/MeisterwerkTask.git
