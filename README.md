@@ -11,7 +11,7 @@
 Setup
 
     clone clone https://github.com/PramodKokadwar/MeisterwerkTask.git
-    install npm i
+    npm install -g testcafe
 
 Run
   Open terminal 
