@@ -5,7 +5,7 @@
 #Example e2e tests (some of which are slightly silly) written in Testcafe, that:
 
     used a page object pattern
-    are written in Javascript es6
+    are written in Javascript 
     used async/await
     run on multiple browsers will be possible
 Setup
