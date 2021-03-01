@@ -15,9 +15,9 @@ Setup
 
 Run
   Open terminal 
-  Go to to react-redux-registration-login-example-master\src\tasks> location
-  Type testcafe chrome .\registrationLoginScripts.js  and click enter
-  You can run this on different browser as well. like testcafe firefox\registrationLoginScripts.js
+  1: Go to to react-redux-registration-login-example-master\src\tasks> location
+  2: Type testcafe chrome .\registrationLoginScripts.js  and click enter
+  3: You can run this on different browser as well. like testcafe firefox \registrationLoginScripts.js
   
   
    
