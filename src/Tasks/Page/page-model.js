@@ -1,6 +1,6 @@
 import { Selector, t } from 'testcafe'
 import { ClientFunction } from 'testcafe';
-import { WatchIgnorePlugin } from 'webpack';
+
 
 class Page {
     constructor() {
@@ -21,7 +21,7 @@ class Page {
         await t
             // Enter FirstName
             .typeText(this.firstName, firstname)
-            .expect(this.firstName.value).contains(firstname, 'input contains text ' +firstname );
+            .expect(this.firstName.value).contains(firstname, 'input contains text ' +this.firstName.value );
 
     }
 
@@ -29,7 +29,7 @@ class Page {
         await t
             // Enter lastName
             .typeText(this.lastName, lastname)
-            .expect(this.lastName.value).contains(lastname, 'input contains text' +lastname);
+            .expect(this.lastName.value).contains(lastname, 'input contains text' +this.lastName.value);
 
     }
 
@@ -37,7 +37,7 @@ class Page {
         await t
              // Enter UserName
             .typeText(this.userName, username)
-            .expect(this.userName.value).contains(username, 'input contains text' +username);
+            .expect(this.userName.value).contains(username, 'input contains text' +this.userName.value);
 
     }
 
@@ -45,7 +45,7 @@ class Page {
         await t
              // Enter password
             .typeText(this.passWord, password)
-            .expect(this.passWord.value).contains(password, 'input contains text '+password);
+            .expect(this.passWord.value).contains(password, 'input contains text '+this.passWord.value);
     }
 
     async submitLoginButton() {

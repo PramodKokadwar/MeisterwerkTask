@@ -1,6 +1,7 @@
 import PageModel from '../Tasks/Page/page-model';
 
 
+
 fixture`Test Registration and Login Functionality Scenarios`
     .page`http://localhost:8080/register`;
 
@@ -9,7 +10,6 @@ fixture`Test Registration and Login Functionality Scenarios`
 test('Test Registration and Login Functionality Scenarios', async t => {
 
 
-    try {
 
         // Enter First Name
         await PageModel.typeFirstName('Pramod');
@@ -47,11 +47,6 @@ test('Test Registration and Login Functionality Scenarios', async t => {
         // Logout from Application
         await PageModel.logOut();
 
-    } catch (error) {
-        console.error(error)
-            // Taking screenshot on failure 
-            .takeScreenshot();
-    }
-
+ 
 
 });
